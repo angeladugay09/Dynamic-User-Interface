@@ -1,0 +1,50 @@
+/* universal family */ 
+* {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header style */
+#headerContainer > h1 {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+#headerContainer > small {
+    font-size: medium;
+    color: black;
+}
+
+#headerContainer {
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #a1d0fc96;
+    box-shadow: 5px 3px rgba(0, 0, 0, 0.5); 
+    /* size para sa shadow sa kaliwa at kanan, isa sa taas at baba. rgba: a stands for transparency */ 
+    border-radius: 20px;
+}
+
+#formContainer {
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #a1d0fc96;
+    box-shadow: 5px 3px rgba(0, 0, 0, 0.5); 
+    /* size para sa shadow sa kaliwa at kanan, isa sa taas at baba. rgba: a stands for transparency */ 
+    border-radius: 20px;
+}
+
+#listContainer {
+    margin: 30px;
+    padding: 10px;
+    text-align: justify;
+    background-color: #a1d0fc96;
+    box-shadow: 5px 3px rgba(0, 0, 0, 0.5); 
+    /* size para sa shadow sa kaliwa at kanan, isa sa taas at baba. rgba: a stands for transparency */ 
+    border-radius: 20px;
+}
