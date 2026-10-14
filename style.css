@@ -41,9 +41,13 @@
     flex-direction: column;
 }
 #formContainer button{
+    position: relative;
+    left: 50%;      
+    transform: translateX(-50%);
+    
     margin: 5px;
     padding: 10px;
-    background-color: #cce8f9e8;
+    background-color: white;
     box-shadow: 5px 3px #03193d86; 
     border-radius: 5px;
 }
@@ -59,7 +63,7 @@
     margin: 5px;
     padding: 10px;
     text-align: center;
-    background-color: #cce8f9e8;
+    background-color: white;
     box-shadow: 5px 3px #03193d86; 
     border-radius: 5px;
 }
